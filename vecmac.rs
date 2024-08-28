@@ -24,6 +24,7 @@ fn single() {
     assert_eq!(x[0], 42);
 }
 
+#[test]
 fn double() {
     let x: Vec<u32> = avec![42, 43];
     assert!(!x.is_empty());
